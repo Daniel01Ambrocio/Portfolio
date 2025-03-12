@@ -1,0 +1,106 @@
+/*Empieza div de presentation*/
+.fondo-gradiente-presentation {
+    background: linear-gradient(135deg, #0077b6, #00b4d8, #90e0ef, #caf0f8); /* Gama azul y verde agua */
+    padding: 10px 0;
+    overflow-x: hidden; /* Evita el desbordamiento horizontal */
+}
+
+.fondo-gradiente-presentation .col-md-8 {
+    height: auto;
+    padding: 20px;
+}
+
+.fondo-gradiente-presentation .col-md-4 {
+    height: auto;
+    padding: 20px;
+}
+/*Div de carrera y nombre/*/
+.fondo-gradiente-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Esto asegura que el h1 esté arriba y el h2 abajo */
+    height: 100%; /* Asegura que el div ocupe todo el espacio disponible */
+    padding: 20px; /*agregar espacio alrededor del contenido */
+}
+
+.fondo-gradiente-text h1 {
+    margin: 0; /* Elimina márgenes para que esté pegado arriba */
+    color: white;
+}
+
+.fondo-gradiente-text h2 {
+    margin: 0; /* Elimina márgenes para que esté pegado abajo */
+    background: linear-gradient(135deg, #0077b6, #00b4d8, #90e0ef); /* fondo */
+    color:white;/*color de letra*/
+    font-size: 1.5rem; /* Ajusta el tamaño de la fuente si es necesario */
+}
+/*imagen de perfil*/
+.imagen-redonda {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%; /* le da forma redonda a la imagen*/
+    object-fit: cover;
+    border: 2px solid green; /* Borde verde */
+    padding: 1px; /* Opcional: agrega un pequeño espacio entre la imagen y el borde */
+}
+/*termina div de presentation*/
+/*Comienza div de introduce*/
+.fondo-gradiente-introduce {
+    background: white; /* Gama azul y verde agua */
+    padding: 10px 0;
+    overflow-x: hidden; /* Evita el desbordamiento horizontal */
+}
+.fondo-gradiente-introduce .col-md-8,
+.fondo-gradiente-introduce .col-md-4 {
+    height: auto;
+    padding: 20px;
+}
+
+/*Div de descripcion de introduccion*/
+.fondo-gradiente-introduce-text-description{
+    
+    height: 100%; /* Asegura que el div ocupe todo el espacio disponible */
+    padding: 10px; /* agregar espacio alrededor del contenido */
+    background-color:#0077b6 ;
+}
+/*imagenes de introduccion*/
+.imagen-introduce {
+    width: 300px;   
+    height: 300px;
+    object-fit: cover;
+    padding: 1px; /* Opcional: agrega un pequeño espacio entre la imagen y el borde */
+}
+/*termina div de introduce*/
+
+/*Comienza div de Historial*/
+.fondo-gradiente-Historial {
+    background: linear-gradient(to bottom, #5a89f5 , #c5fafc );
+    padding: 10px;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*Divs de experience y education*/
+.fondo-gradiente-Education,
+.fondo-gradiente-Experience {
+    background: white;
+    padding: 10px;
+    width: 300px;
+    height: 700px; /*altura  ajustable al contenido*/
+    display: flex;
+    justify-content: center;
+}
+
+#Education {
+    margin-left: 10%; /* Separación del borde izquierdo */
+    margin-right: 2px; /* Separación del borde derecho */
+}
+
+#Experience {
+    margin-right: 10%; /* Separación del borde derecho */
+    margin-left: 2px; /* Separación del borde izquierdo */
+}
+.col-md-4, #Nombre {
+    margin-right: 20px;
+}
