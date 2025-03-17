@@ -1,14 +1,16 @@
 /* Estilo general del cuerpo */
 body {
-    background-color: rgb(245, 245, 245);
+    background-color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(34, 34, 34);
     line-height: 1.6;
+    overflow-x: hidden;
+    width: 100%;
     margin: 0; /* Elimina márgenes */
     padding: 1px; /* Elimina padding */
 }
 
-/* Si quieres que el contenido esté centrado */
+/*contenido esté centrado */
 .container {
     margin: 0 auto;
 }
